@@ -1,0 +1,59 @@
+<body>
+  
+  	<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 220 220" enable-background="new 0 0 220 220" xml:space="preserve">
+<g id="Layer_1" display="none">
+	<rect id="XMLID_1_" display="inline" fill="#49B85E" width="220" height="220"/>
+</g>
+<g id="Layer_2">
+	<circle id="circle_scan_1" opacity="0.34" fill="none" stroke="#F2F2F2" stroke-miterlimit="10" cx="110" cy="110" r="52.3"/>
+	
+		<circle id="circle_scan_2" opacity="0.34" fill="none" stroke="#F2F2F2" stroke-width="3" stroke-miterlimit="10" cx="110" cy="110" r="77.6"/>
+	<circle id="circle_scan_3" opacity="0.34" fill="none" stroke="#F2F2F2" stroke-miterlimit="10" cx="110" cy="110" r="105.8"/>
+</g>
+</svg>
+</body>
+
+<style>	
+body{
+  background-color: #00b45e;
+}
+
+
+svg{
+  width: 300px;
+}
+
+#circle_scan_3{
+ -webkit-animation: myfirst 3s infinite ; /* Safari 4.0 - 8.0 */
+  animation: myfirst 3s infinite ;
+  animation-duration: 3s;
+}
+@keyframes myfirst {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    /*transform: scale(1);*/
+    opacity: 1;
+  }
+}
+
+
+#circle_scan_2{
+  opacity: 0;
+
+ -webkit-animation: mysec 1s infinite ; /* Safari 4.0 - 8.0 */
+  animation: mysec 1s infinite ;
+  animation-duration: 2s;
+}
+@keyframes mysec {
+  from{
+    opacity: 0;
+  }
+  to{
+    /*transform: scale(1);*/
+    opacity: 1;
+  }
+}
+</style>

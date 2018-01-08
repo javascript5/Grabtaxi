@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Grab Taxi Preview</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/typed.js"></script>
+  <script src="js/script.js"></script>
+  <!--<link rel=”shortcut icon” href=”images/favicon.ico” />-->
+  <link rel="icon" type="image/png" href="images/favicon.ico" sizes="16x16">
+<link rel="icon" type="image/png" href="images/favicon.ico" sizes="32x32">
+</head>
+
+<body>
+
+  <section id="sec_1">
+    <div id="logo">
+      <img src="images/logo.svg" alt="Kiwi standing on oval">
+      <p>แอพพลิเคชั่นที่เพิ่มอิสระให้แก่ผู้ใช้บริการแล้วกว่า 11 ล้านคน</p>
+      <a href="#sec_2" class="btn_starter_link">
+        <button class="btn_starter">
+        
+        START
+        
+      </button>
+      </a>
+      <button class="btn_video_preview">
+        VIDEO
+      </button>
+    </div>
+    <div class="video_box">
+      <button class="skip_video">
+        SKIP
+      </button>
+      <video class="video_ctrl" controls>
+        <source src="video/Grab_Success.mp4" type="video/mp4">
+        <!--<source src="movie.ogg" type="video/ogg">-->
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <!--<div id="video_bg">
+      <video controls muted autoplay>
+  <source src="video/Grab_Taxi_introduction.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video>
+    </div>-->
+  </section>
+
+<script>
+$('.btn_starter_link').click(function(event){
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+});
+</script>
+  <section id="sec_2">
+
+
+    <div id="step2">
+      <div class="line">
+      </div>
+      <div class="line2">
+      </div>
+      <div id="logo_2">
+        <img src="images/logo_white.png" alt="">
+      </div>
+      <div class="layout_howto">
+        <div class="next">
+          <ul>
+            <li class="page1 page"><span>1</span></li>
+            <li class="page2 page"><span>2</span></li>
+            <li class="page3 page"><span>3</span></li>
+            <li class="page4 page"><span>4</span></li>
+            <li class="page5 page"><span>5</span></li>
+            <li class="page6 page page_end"><span>6</span></li>
+          </ul>
+        </div>
+
+
+
+
+
+        <div class="iphone-layout">
+
+          <div id="how_to_1">
+            <div id="location_input">
+              <ul>
+                <li class="location_icon">
+                  <img src="images/icon_howto.png" alt="">
+                </li>
+                <li class="location_fill loca_fill_1">
+                  <h1>
+                    Your Location
+                  </h1>
+                </li>
+                <li class="location_fill loca_fill_2" style="border:none;">
+                  <h1>
+                    <div class="element"></div>
+                    <script>
+                      document.addEventListener('DOMContentLoaded', function () {
+                        Typed.new('.element', {
+                          strings: ["Information Technology"],
+                          loop: true,
+                          typeSpeed: 100
+                        });
+                      });
+                    </script>
+
+                  </h1>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+
+          <div class="container">
+            <div class="phone">
+              <div class="camera"></div>
+              <div class="speaker"></div>
+              <div class="sleep-button"></div>
+              <div class="silent-switch"></div>
+              <div class="volume up"></div>
+              <div class="volume down"></div>
+              <div class="screen">
+
+
+                <div id="how_to_1_clone">
+                  <div id="location_input_clone">
+                    <ul>
+                      <li class="location_icon_clone">
+                        <img src="images/icon_howto.png" alt="">
+                      </li>
+                      <li class="location_fill_clone loca_fill_1_clone">
+                        <h1>
+                          Your Location
+                        </h1>
+                      </li>
+                      <li class="location_fill_clone loca_fill_2_clone" style="border:none;">
+                        <h1>
+                          dasdasdaasda
+
+                        </h1>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+
+                <div class="box_driver">
+                  <img src="images/drive.png" alt="">
+                </div>
+
+
+                <div class="drive_popup">
+                  <img src="images/drive_popup.png" alt="">
+                </div>
+
+                <div class="social_sh">
+                  <img src="images/social_sh.png" alt="">
+                </div>
+
+                <div class="social_end">
+                  <img src="images/social_end.png" alt="">
+                </div>
+
+
+                <div class="call_btn">
+                  <h1>เรียกรถ</h1>
+                </div>
+
+                <div class="bg_black">
+                </div>
+
+
+
+              </div>
+              <div class="home-button"></div>
+
+
+
+
+            </div>
+          </div>
+
+
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <section id="sec_3">
+    <div class="bg_black_cover"></div>
+    <div class="download">
+      <h1>ดาวน์โหลดเลยวันนี้</h1>
+      <div class="qrcode">
+        <p>
+          สแกน QR Code ที่นี่
+        </p>
+        <img src="https://17225-presscdn-0-73-pagely.netdna-ssl.com/th/wp-content/uploads/sites/10/2016/05/pax_th.jpg" alt="">
+      </div>
+      <div class="store">
+        <ul>
+          <li>
+            <a target="_blank" href="https://itunes.apple.com/sg/app/id647268330?mt=8">
+              <img src="https://17225-presscdn-0-73-pagely.netdna-ssl.com/th/wp-content/uploads/sites/10/2016/05/app-store.png" alt="">
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.grabtaxi.passenger&referrer=af_tranid%3D-3MMGH05AjuzA7IZEg2LWQ%26pid%3DTH-Website-ADR-Install_Button%26c%3DWebsite_Download">
+              <img src="https://17225-presscdn-0-73-pagely.netdna-ssl.com/th/wp-content/uploads/sites/10/2016/05/google-play.png" alt="">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="step_4">
+
+    <div class="warpper">
+      <div class="instepFOUR">
+        <h1>พวกเรา
+        </h1>
+
+      </div>
+    </div>
+    <div id="ourteam">
+      <div class="team">
+        <ul>
+          <li>
+            <figure class="snip1321"><img src="https://sheetpub.toppy.in.th/images/team/pleng.png" alt="sq-sample26">
+              <figcaption><i class="ion-upload"></i>
+                <h4>Pongpanot Na Ubon</h4>
+                <h2>PLENG</h2>
+                <h4>59070108</h4>
+              </figcaption>
+              <a href="https://www.facebook.com/pleng.prongpanot" target="_blank"></a>
+            </figure>
+          </li>
+          <li>
+            <figure class="snip1321"><img src="images/mask.jpg" alt="sq-sample26">
+              <figcaption><i class="ion-upload"></i>
+                <h4>Vasanchai Prakobkij</h4>
+                <h2>Mask</h2>
+                <h4>59070156</h4>
+              </figcaption>
+              <a href="https://www.facebook.com/Mormask" target="_blank"></a>
+            </figure>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+
+    <div class="bg_green_cover"></div>
+  </section>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
